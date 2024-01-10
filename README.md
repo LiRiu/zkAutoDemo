@@ -2,8 +2,9 @@
 
 ## Introduction
 
-该CLE自动获取主网ethscriptions_protocol_CreateEthscription事件。
-当有人打造了铭文时，在sepolia上自动为铭文创建者累加一次创建次数。
+The CLE automatically retrieves the `ethscriptions_protocol_CreateEthscription` event from the mainnet.
+
+When someone build an inscription, it automatically increments the creation count once for the creator on sepolia.
 
 ## Commonly used commands
 
