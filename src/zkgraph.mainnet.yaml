@@ -5,9 +5,9 @@ description: "This CLE automatically increments the creation count once for the 
 repository: https://github.com/hyperoracle/zkgraph
 dataSources:
   - kind: ethereum
-    network: sepolia
+    network: mainnet
     event:
-      - address: '0x0c8fe55d3956dcc26b70775bcc9009fa84737a89'
+      - address: '0x20be9c12f3c574eaced3fb540af6ef874cac5c02'
         events: 
           - "ethscriptions_protocol_CreateEthscription(address,string)"
 
